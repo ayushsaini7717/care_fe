@@ -9,7 +9,7 @@ import { PaginatedResponse, QueryRoute } from "@/Utils/request/types";
 import useQuery, { QueryOptions } from "@/Utils/request/useQuery";
 import { classNames } from "@/Utils/utils";
 
-const DEFAULT_PER_PAGE_LIMIT = 14;
+const DEFAULT_PER_PAGE_LIMIT = 5;
 
 interface PaginatedListContext<TItem>
   extends ReturnType<typeof useQuery<PaginatedResponse<TItem>>> {
